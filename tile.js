@@ -2,7 +2,7 @@ let input = document.querySelector('#add');
 let btn = document.querySelector('#btn');
 let list = document.querySelector('#list');
 let el = document.getElementsByTagName('li');
-
+alert("After adding event click on the list item to mark it as done");
 btn.addEventListener('click',() => {
   let txt = input.value;
   if(txt === ""){
